@@ -1,0 +1,197 @@
+{
+  "total_data_rows": 57,
+  "blank_brand_rows": 57,
+  "blank_pouches_rows": 57,
+  "blank_tonnes_cs_rows": 0,
+  "negative_monthly_cells": [
+    {
+      "row": 7,
+      "product": "KNR MEX BOUIL CHK 6 2 LB",
+      "site": "Indy",
+      "month": "2025-07",
+      "value": -480.0
+    },
+    {
+      "row": 11,
+      "product": "KNR MEX BOUIL Beef 6 2 LB",
+      "site": "Indy",
+      "month": "2025-06",
+      "value": -192.0
+    },
+    {
+      "row": 32,
+      "product": "KNORR BOUIL TOM/CHK 12/15.9 OZ",
+      "site": "Indy",
+      "month": "2025-08",
+      "value": -98.0
+    }
+  ],
+  "rows_with_all_months_zero_or_blank": 1,
+  "in_flight_transfers": [
+    {
+      "row": 9,
+      "product": "KNR MEX BOL TOM/CHK 6 2 LB",
+      "site": "Lerma",
+      "direction": "outgoing_mid_year"
+    },
+    {
+      "row": 19,
+      "product": "KNR Bouillon Beef Zero Salt 6p 2.6z",
+      "site": "Batavia",
+      "direction": "outgoing_mid_year"
+    },
+    {
+      "row": 20,
+      "product": "KNR BOUIL Roast GAR Zero Salt 6p 2.6z",
+      "site": "Batavia",
+      "direction": "outgoing_mid_year"
+    },
+    {
+      "row": 21,
+      "product": "KNR MEX BOUIL BEEF 12 15.9z",
+      "site": "Lerma",
+      "direction": "outgoing_mid_year"
+    },
+    {
+      "row": 36,
+      "product": "Knorr Caldo DE Pollo 216p 2kg PAL",
+      "site": "Batavia",
+      "direction": "incoming_mid_year"
+    },
+    {
+      "row": 48,
+      "product": "Knorr Caldo DE Tomate CON POLLO 1p 25lb",
+      "site": "Batavia",
+      "direction": "incoming_mid_year"
+    },
+    {
+      "row": 51,
+      "product": "KNR MEX BOUILLON BEEF 12 15.9Z",
+      "site": "Lerma",
+      "direction": "outgoing_mid_year"
+    },
+    {
+      "row": 57,
+      "product": "KNORR MEX BOUILLON CHK 12 15.9Z",
+      "site": "Lerma",
+      "direction": "outgoing_mid_year"
+    },
+    {
+      "row": 59,
+      "product": "KNORR BOUIL TOMATO/CHICKEN 12P 15.9Z",
+      "site": "Indy",
+      "direction": "incoming_mid_year"
+    },
+    {
+      "row": 60,
+      "product": "KNORR BOUIL TOMATO/CHICKEN 12P 15.9Z",
+      "site": "Lerma",
+      "direction": "outgoing_mid_year"
+    }
+  ],
+  "duplicate_product_du_across_sites": [
+    {
+      "product": "KNR MEX BOUIL CHK 6 2 LB",
+      "sites": [
+        "Indy",
+        "Lerma"
+      ]
+    },
+    {
+      "product": "KNR MEX BOL TOM/CHK 6 2 LB",
+      "sites": [
+        "Indy",
+        "Lerma"
+      ]
+    },
+    {
+      "product": "KNR MEX BOUIL Beef 6 2 LB",
+      "sites": [
+        "Indy",
+        "Lerma"
+      ]
+    },
+    {
+      "product": "KNR MEX BOUIL CHK 480 2.53lb 40.5z",
+      "sites": [
+        "Batavia",
+        "Lerma"
+      ]
+    },
+    {
+      "product": "KNR MEX BOUIL BEEF 12 15.9z",
+      "sites": [
+        "Indy",
+        "Lerma"
+      ]
+    },
+    {
+      "product": "KNR MEX BOUIL CHK 12/15.9 OZ",
+      "sites": [
+        "Indy",
+        "Lerma"
+      ]
+    },
+    {
+      "product": "KNORR BOUIL TOM/CHK 12/15.9 OZ",
+      "sites": [
+        "Indy",
+        "Lerma"
+      ]
+    },
+    {
+      "product": "KNR MEX BOUILLON BEEF 12 15.9Z",
+      "sites": [
+        "Indy",
+        "Lerma"
+      ]
+    },
+    {
+      "product": "KNORR MEX BOUILLON CHK 12 15.9Z",
+      "sites": [
+        "Indy",
+        "Lerma"
+      ]
+    },
+    {
+      "product": "KNORR BOUIL TOMATO/CHICKEN 12P 15.9Z",
+      "sites": [
+        "Indy",
+        "Lerma"
+      ]
+    }
+  ],
+  "totals": {
+    "grand_cases_2025": 5246057.12,
+    "by_site_cases": {
+      "Lerma": 3842763.82,
+      "Batavia": 584756.3,
+      "Indy": 818537.0
+    },
+    "by_site_approx_tonnes": {
+      "Lerma": 28783.04,
+      "Batavia": 10007.11,
+      "Indy": 4444.93
+    },
+    "by_channel_cases": {
+      "US Retail": 4330102.58,
+      "CDA Retail": 11545.32,
+      "UFS": 901837.21,
+      "UI": 2572.0
+    },
+    "by_subcat_cases": {
+      "Sabor": 4307513.58,
+      "Granulated Bases/Bouillon": 938543.54
+    },
+    "by_site_channel_cases": {
+      "Lerma|US Retail": 3469125.22,
+      "Batavia|US Retail": 42899.37,
+      "Indy|US Retail": 818078.0,
+      "Batavia|CDA Retail": 11545.32,
+      "Batavia|UFS": 530311.61,
+      "Lerma|UFS": 371525.6,
+      "Lerma|UI": 2113.0,
+      "Indy|UI": 459.0
+    }
+  }
+}
