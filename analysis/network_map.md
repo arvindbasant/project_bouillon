@@ -32,7 +32,7 @@
 ### 2.3 Batavia — the specialty UFS site
 - **584,756 cases (11.1%)** · ~10,000 tonnes directional (punches above its case weight because of large UFS formats)
 - **2 lines:** "13" (539K), "0" (45K)
-- **7 formats**, dominated by **4.4 lb UFS (457K)** and **"0" size Caldo (83K — UFS + CDA)**
+- **7 formats**, dominated by **4.4 lb UFS (457K)** and **25 lb bulk Caldo UFS (74K)**. Also runs the **160 g Zero Salt retail pouches (12K)** — the only CDA Retail volume in the network.
 - **Channel:** ~91% UFS, ~7% US Retail, ~2% CDA Retail. **The only site that carries CDA Retail.**
 - **Technologies:** Knorr Caldo 4.4, Knorr Caldo 25 lb, Large Granulated MixMod, Small Granulated Natural — **none of which run at Indy today.**
 - **Role in network:** UFS specialist + CDA Retail fulfillment. Technology-differentiated, not a direct Lerma overlap.

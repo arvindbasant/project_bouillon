@@ -103,7 +103,7 @@ style: |
   .two-col p, .two-col li { font-size: 14px; }
   .good { color: #2E8B57; font-weight: 600; }
   .bad { color: #B03030; font-weight: 600; }
-footer: "NA Bouillon · Week 1 current-state pack · 2026-04-17"
+footer: "NA Bouillon · Week 1 current-state pack · 2026-04-15"
 ---
 
 <!-- _class: lead -->
@@ -120,43 +120,43 @@ footer: "NA Bouillon · Week 1 current-state pack · 2026-04-17"
 
 **Prepared for:** Wez Beauplan · Associate Director, Foods Transformation (NA)
 **Scope:** Current-state network (Scope A) + business baseline (Scope B)
-**Source:** `Copy of RT and UFS Bouillon 4.13.26.xlsx` · 57 SKUs · 5.25M cases · 2025 FY
-**Date:** 2026-04-17
+**Source:** `Copy of RT and UFS Bouillon 4.13.26.xlsx` · 57 SKUs · 5.25M cases · 43,235 t · 2025 FY
+**Date:** 2026-04-15
 
 ---
 
 # Executive summary
 
 <div class="insight">
-The real project question is not <b>"should we consolidate at Indy."</b> The Lerma → Indy shift is already in motion for the formats Indy can run today. The question is where the line sits between <b>formats Indy can absorb with headroom (~1.48M cases)</b> and <b>formats Indy would have to build new capability for (~2.94M cases)</b>. Those two scenarios have fundamentally different cost, capex and risk profiles — and framing them that way is how leadership gets a decision it can act on.
+The real project question is not <b>"should we consolidate at Indy."</b> The Lerma → Indy shift is already in motion for the formats Indy can run today. The question is where the line sits between <b>formats Indy can absorb with headroom (8,044 t / 1.48M cases)</b> and <b>formats Indy would have to build new capability for (30,746 t / 2.94M cases)</b>. Those two scenarios have fundamentally different cost, capex and risk profiles — and framing them that way is how leadership gets a decision it can act on.
 </div>
 
 ### The five facts that carry the pack
 
-1. **5,246,057 cases across 3 sites.** Lerma 73% · Indy 16% · Batavia 11%. By tonnage the split is 67 / 10 / 23 — Batavia punches 2× its case weight.
+1. **43,235 t · 5.25M cases across 3 sites.** Tonnes: Lerma 67% (28,783 t) · Batavia 23% (10,007 t) · Indy 10% (4,445 t). Cases: Lerma 73% · Indy 16% · Batavia 11%. **Batavia = 11% cases but 23% tonnes** — UFS formats are heavy.
 2. **44% of network cases are in multi-site SKUs.** 100% of Indy's volume is shared with Lerma. **Batavia has zero overlap with anyone.** Lerma is 38.5% shared / 61.5% unique.
-3. **The Lerma → Indy shift is already executing.** 6 SKUs mid-handoff in 2025 — but the flagship (1.18M cases) is **only 15% migrated**.
-4. **Indy today is a single-line, two-format, Retail-only factory.** Line 15 · 2 lb + 15.9 oz · 100% Retail · **zero UFS**.
-5. **Scenario 2 is a capability build, not a volume transfer.** 2.94M cases sit in formats or technologies Indy has never run.
+3. **The Lerma → Indy shift is already executing.** 6 SKUs mid-handoff in 2025 — but the flagship (7,600 t/yr) is **only 15% migrated**.
+4. **Indy today is a single-line, two-format, Retail-only factory.** Line 15 · 2 lb + 15.9 oz · 100% Retail · **zero UFS** · 4,445 t total.
+5. **Scenario 2 is a capability build, not a volume transfer.** 30,746 t sit in formats or technologies Indy has never run.
 
 ---
 
-# The one chart
+# The one chart — volume in tonnes
 
 ![chart](charts/01_one_network.png)
 
 <div class="insight">
-Three sites, three disjoint production systems stacked on top of each other. Case share (73/16/11) is not tonnage share (67/10/23). Lerma is scale · Indy is a Lerma-mirror in execution · Batavia is a technology monopoly.
+Case share (73/16/11) is not tonnage share (67/10/23). <b>Batavia carries 23% of tonnes on 11% of cases</b> — its UFS formats average 17 kg/case vs Indy's 5.4 kg/case. Lerma is the scale site. Indy is a Lerma-mirror in execution. Batavia is a technology monopoly.
 </div>
 
 ---
 
-# Three disjoint manufacturing systems
+# Batavia punches 2× its case weight in tonnes
 
-![chart](charts/02_three_systems.png)
+![chart](charts/02_site_density.png)
 
 <div class="insight">
-<b>100% of Indy's volume is in Lerma-shared SKUs</b> — Indy has zero unique product footprint. <b>Batavia has 0% overlap</b> — every Batavia SKU is unique in the network. The "consolidate at Indy" conversation is really <b>two conversations</b>: absorb the overlap (Scenario 1), build everything else from scratch (Scenario 2).
+Batavia's 4.4 lb and 25 lb UFS formats average <b>17 kg/case</b> vs Indy's 5.4 kg/case. Any consolidation plan that uses cases as the primary unit will understate the Batavia capability build by ~2×. <b>Tonnes is the right unit for production planning.</b>
 </div>
 
 ---
@@ -166,7 +166,7 @@ Three sites, three disjoint production systems stacked on top of each other. Cas
 ![chart](charts/03_format_complexity.png)
 
 <div class="insight">
-Indy runs <b>2 of 11</b> formats in the network. Every other format — 7.9 oz (1.79M), 4.4 lb Caldo UFS (457K), 7.9 lb UFS (372K), 3.5 oz, 25 lb Caldo, MixMod, Natural — runs somewhere Indy does not. Scenario 2 is therefore a capability build, not a line transfer.
+Indy runs <b>2 of 11</b> formats in the network. Every other format — 7.9 oz (~4,800 t), 4.4 lb Caldo UFS (~3,600 t), 7.9 lb UFS (~5,300 t), 3.5 oz, 25 lb Caldo, MixMod, Natural — runs somewhere Indy does not. Scenario 2 is therefore a capability build, not a line transfer.
 </div>
 
 ---
@@ -180,7 +180,7 @@ Indy runs <b>2 of 11</b> formats in the network. Every other format — 7.9 oz (
 
 ### Scenario 1 — Maximize Indy
 
-**1.48M cases · 28%**
+**8,044 t · 1.48M cases**
 Capacity / throughput question. Line-15 headroom + second-line decision. Low–medium capex. R&D dependency: low. Near-term.
 
 </div>
@@ -188,7 +188,7 @@ Capacity / throughput question. Line-15 headroom + second-line decision. Low–m
 
 ### Scenario 2 — Full Consolidation
 
-**2.94M cases · 56%**
+**30,746 t · 2.94M cases**
 Capability-build + harmonization program. 6 new formats · 4+ new technologies · UFS footprint from scratch. High capex. **R&D harmonization is the critical path.** 3-year horizon.
 
 </div>
@@ -305,12 +305,23 @@ Indy is a <b>strong foundation for Scenario 1</b> if line-15 headroom exists. It
 
 ### Site × channel reconciliation _(used throughout)_
 
+**Cases:**
+
 | Site      |     US Retail |         UFS | CDA Retail |        UI |     **Total** |
 | --------- | ------------: | ----------: | ---------: | --------: | ------------: |
 | Lerma     |     3,469,125 |     371,526 |          — |     2,113 | **3,842,764** |
 | Indy      |       818,078 |           — |          — |       459 |   **818,537** |
 | Batavia   |        42,899 |     530,312 |     11,545 |         — |   **584,756** |
 | **Total** | **4,330,103** | **901,837** | **11,545** | **2,572** | **5,246,057** |
+
+**Tonnes (directional, Cases × Tonnes/CS):**
+
+| Site      | US Retail | UFS | CDA Retail | UI | **Total** |
+| --------- | --------: | --: | ---------: | -: | --------: |
+| Lerma     | 23,451 t | 5,325 t | — | 7 t | **28,783 t** |
+| Indy      | 4,443 t | — | — | 2 t | **4,445 t** |
+| Batavia   | 5,501 t | 4,484 t | 22 t | — | **10,007 t** |
+| **Total** | **33,395 t** | **9,809 t** | **22 t** | **9 t** | **43,235 t** |
 
 ### What the workbook does **not** contain _(named, not hidden)_
 

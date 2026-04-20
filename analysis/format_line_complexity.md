@@ -31,10 +31,10 @@ Everything else in this file is the evidence for those two statements.
 | 3.5 oz | — | 183,878 | — | 183,878 | Lerma-only. |
 | 40.5 oz | — | 18,457 | — | 18,457 | Lerma runs it; Batavia listed with zero volume (data-quality flag). |
 | **4.4 lb (UFS)** | — | — | **456,612** | 456,612 | **Largest Batavia format.** Caldo / UFS. Indy can't touch it today. |
-| "0" size Caldo (UFS/CDA) | — | — | 82,929 | 82,929 | Batavia-only technology. |
+| **25 lb bulk Caldo (UFS)** | — | — | **73,699** | 73,699 | Batavia-only technology. 1p drums for foodservice. Merges the two 25 lb SKUs coded inconsistently in source (`size=0` Knorr Caldo De Pollo + `size="25 lb"` Knorr Caldo De Tomate). |
 | 2.6 oz | — | — | 25,161 | 25,161 | Batavia-only. Zero Salt variants. |
+| 160 g Zero Salt (CDA Retail) | — | — | 11,545 | 11,545 | Batavia-only. 3 flavors × 12-pack. **Only CDA Retail source in the network.** Encoded as `size=0` in the source workbook. |
 | 2.5 lb | — | — | 10,298 | 10,298 | Batavia-only. |
-| 25 lb (UFS) | — | — | 2,315 | 2,315 | Batavia-only. |
 
 **Read:** Indy runs 2 formats. Lerma runs 6. Batavia runs 7. The **union** across the network is 11 distinct pack formats. Indy participates in **18%** of the format taxonomy and **31%** of the case volume.
 
@@ -100,11 +100,11 @@ Formats NOT at Indy today that would need to land there under Scenario 2:
 | 4.4 lb Caldo (UFS) | Batavia line 13 | **456,612** | Entirely new technology (Knorr Caldo), new line, new UFS channel at Indy. |
 | 7.9 lb Large Granulated (UFS) | Lerma Mateer 2 | **371,525** | Indy has no UFS footprint. New line, new UFS logistics. |
 | 3.5 oz Small Granulated | Lerma Mateer 1 | **183,878** | New pack size. |
-| "0" size Caldo (UFS/CDA) | Batavia | **82,929** | New technology (Caldo). Only source of CDA Retail. |
+| 25 lb bulk Caldo (UFS) | Batavia | **73,699** | New pack size + new technology (Knorr Caldo). Foodservice 1p drum format. |
 | 2.6 oz Zero Salt | Batavia | **25,161** | New pack size + new variant line. |
 | 40.5 oz (UFS) | Lerma | **18,457** | New UFS pack size. |
+| 160 g Zero Salt pouches (CDA Retail) | Batavia | **11,545** | New pack size + **new Canadian regulatory scope** (only CDA source in network). |
 | 2.5 lb | Batavia | **10,298** | New pack size. |
-| 25 lb UFS Caldo | Batavia | **2,315** | New pack size, new technology. |
 | **Total requiring new capability at Indy** | | **~2,940,525** cases | |
 
 **Read:** roughly **56% of all NA bouillon cases** sit in formats or technologies Indy does **not** currently run. Scenario 2 is therefore a capability-build story, not a volume-transfer story.
@@ -134,5 +134,5 @@ That's the whole story of this project in three rows.
 1. "Format" is approximated by the `Size` column. Two rows at the same pack size but different tech (e.g. a 2 lb Large Granulated at Indy vs 2 lb Large Granulated MixMod at Batavia) are treated as the **same format** for pack-line purposes. Week 2 should revalidate with a Size × Tech view.
 2. Line capacity numbers are **not in the dataset**. "Headroom", "utilization", and "second line at Indy" are framed as open questions, not asserted.
 3. The 2 lb Batavia row (7,440 cases) is treated as a residual, not Batavia running the format at scale.
-4. The "0" size rows at Batavia are Knorr Caldo variants; "size 0" is a source-data encoding, not a zero-weight pack.
+4. **"Size 0" is a source-data encoding artifact, not a zero-weight pack.** The source workbook uses `Size = 0` for SKUs whose real pack size is spelled out in the `Product DU` name instead. It bundles two unrelated product groups: (a) the **25 lb bulk Caldo UFS drums** (71K cases of `Knorr Caldo De Pollo 1p 25lb`), which we've merged in §2 and §5b with the properly-coded `25 lb` row (`Knorr Caldo De Tomate 1p 25lb`, 2.3K cases) to form a single `25 lb bulk Caldo (UFS)` line at **73,699 cases**; and (b) the **160 g Zero Salt Canadian retail pouches** (12K cases, 3 flavors), split into their own row because they are the only CDA Retail volume in the entire NA network. The two groups have nothing in common operationally — a 25 lb foodservice drum and a 160 g consumer pouch — they just share a data-quality quirk.
 5. All multi-site SKU splits are from the in-flight transfer pattern noted in `logs/data_quality_memo.md`.

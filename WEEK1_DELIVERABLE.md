@@ -176,11 +176,11 @@ That's the whole project in four rows.
 | 4.4 lb Caldo (UFS) | Batavia line 13 | 456,612 | New technology + new UFS channel |
 | 7.9 lb FS Large Granulated (UFS) | Lerma Mateer 2 | 371,525 | New UFS line + new UFS logistics |
 | 3.5 oz Small Granulated | Lerma Mateer 1 | 183,878 | New pack size |
-| "0"-size Caldo (UFS/CDA) | Batavia | 82,929 | New technology + only CDA source |
+| 25 lb bulk Caldo (UFS) | Batavia | 73,699 | New pack size + new technology (Knorr Caldo) |
 | 2.6 oz Zero Salt | Batavia | 25,161 | New pack size + new variant |
 | 40.5 oz (Retail) | Lerma | 18,457 | New pack size |
+| 160 g Zero Salt (CDA Retail) | Batavia | 11,545 | Only CDA source — new Canadian regulatory scope |
 | 2.5 lb | Batavia | 10,298 | New pack size |
-| 25 lb UFS Caldo | Batavia | 2,315 | New pack size + new technology |
 | **Total requiring new capability at Indy** | | **2,940,525** | |
 
 ### What this means for the two scenarios

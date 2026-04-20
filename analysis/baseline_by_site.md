@@ -13,32 +13,26 @@
 
 ## 2. One-chart view
 
-```
-           2025 NA BOUILLON — SITE × CHANNEL × VOLUME (cases · tonnes)
+**2025 NA bouillon network · site × channel · cases**
 
-                              US Retail         UFS       CDA Retail     UI         TOTAL
-                              4,330,103      901,837        11,545     2,572      5,246,057
+| Site | Lines | Formats | US Retail | UFS | CDA Retail | UI | **Total cases** | Tonnes | **Share** |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **Lerma** (MX) | 3 | 6 | 3,469,125 | 371,526 | — | 2,113 | **3,842,764** | ~28.8 kt | **73.3%** |
+| **Indy** (US) | 1 | 2 | 818,078 | — | — | 459 | **818,537** | ~4.4 kt | **15.6%** |
+| **Batavia** (US) | 2 | 7 | 42,899 | 530,312 | 11,545 | — | **584,756** | ~10.0 kt | **11.1%** |
+| **Total** | **6** | **11** ⃰ | **4,330,103** | **901,837** | **11,545** | **2,572** | **5,246,057** | **~43.2 kt** | **100%** |
 
-    LERMA  MX  3 lines          3,469,125     371,526           —      2,113      3,842,764   73.3%
-                                 ~26.0kt       ~2.7kt                                 ~28.8kt
-       Mateer 1/2/3 · 6 formats · Retail + UFS · Sabor + Granulated Bases
-       38.5% of Lerma volume is in Indy-shared SKUs (the S1 transfer pool)
+⃰ 11 *unique* pack formats in the network. Indy's 2 formats are a strict subset of Lerma's 6; Batavia's 7 are entirely unique — zero overlap with either other site.
 
-    INDY       1 line              818,078           0           —        459       818,537   15.6%
-                                  ~4.4kt                                              ~4.4kt
-       Line 15 · 2 formats (2 lb + 15.9 oz) · 100% US Retail · 0 UFS
-       100% of Indy volume is in multi-site (= Lerma-shared) SKUs
+**Site notes**
 
-    BATAVIA    2 lines              42,899     530,312       11,545         —       584,756   11.1%
-                                   ~0.4kt      ~9.2kt       ~0.4kt                   ~10.0kt
-       Line 13 + line 0 · 7 formats · UFS specialist · Caldo / MixMod / Natural
-       0% of Batavia volume is shared — every Batavia SKU is unique in the network
+| Site | Lines & line specialization | Key insight |
+|---|---|---|
+| **Lerma** | Mateer 1 (Small Granulated 7.9/3.5/15.9 oz) · Mateer 2 (FS Large Granulated 7.9 lb UFS) · Mateer 3 (Large Granulated 2 lb + 40.5 oz) | **38.5% of Lerma volume is in Indy-shared SKUs** → the Scenario-1 transfer pool (1.48M cases). The other 61.5% is Lerma-unique. |
+| **Indy** | Line "15" carries 100% of output · 2 lb Large Granulated + 15.9 oz Small Granulated · 100% US Retail · **0 UFS** | **100% of Indy volume is in multi-site (Lerma-shared) SKUs** → zero unique product footprint. Indy is a Lerma-mirror in execution. |
+| **Batavia** | Line 13 (UFS Caldo + CDA Zero Salt) · line 0 (low-volume Retail + 25 lb Caldo) · UFS specialist (Caldo 4.4 / Caldo 25 lb / MixMod / Small Granulated Natural) | **0% of Batavia volume is shared with any other site** → every Batavia SKU is unique. Technology monopoly on Caldo, MixMod and Natural. |
 
-    TOTAL                      4,330,103     901,837        11,545     2,572      5,246,057
-                                ~31.4kt      ~11.2kt      ~0.4kt                    ~43.2kt
-```
-
-**Read:** case share (73 / 16 / 11) is not tonnage share (67 / 10 / 23). Batavia punches twice its case weight in tonnage because its UFS packs are heavy (2.5 lb, 4.4 lb, 7.9 lb, 25 lb). Any "which site makes the most bouillon" conversation needs to specify the unit.
+**Read:** case share (73 / 16 / 11) is **not** tonnage share (67 / 10 / 23). **Batavia punches 2× its case weight in tonnage** because its UFS packs are heavy (4.4 lb, 7.9 lb, 25 lb, 2.5 lb pallets). Any "which site makes the most bouillon" conversation needs to specify the unit — cases or tonnes tell different stories.
 
 ---
 
@@ -150,11 +144,11 @@ The remaining **61.5% of Lerma (2,363,212 cases)** is Lerma-unique: 7.9 oz (1.79
 | Format | Cases | Share | Technology |
 |---|---:|---:|---|
 | 4.4 lb UFS | 456,612 | 78.1% | Knorr Caldo 4.4 (line 13) |
-| "0"-size Caldo (UFS + CDA) | 82,929 | 14.2% | Knorr Caldo + Small Granulated Natural (line 13) |
+| 25 lb bulk Caldo UFS | 73,699 | 12.6% | Knorr Caldo + Knorr Caldo 25 lb (line 13 + line 0) — **two source SKUs merged**, see §8 caveat |
 | 2.6 oz Retail | 25,161 | 4.3% | Small Granulated Natural — Zero Salt (line 0) |
+| 160 g Zero Salt (CDA Retail) | 11,545 | 2.0% | Small Granulated Natural (line 13) — **only CDA Retail source in the network** |
 | 2.5 lb Retail | 10,298 | 1.8% | Large Granulated (line 0) |
 | 2 lb Retail | 7,440 | 1.3% | Large Granulated + MixMod (line 0) |
-| 25 lb UFS | 2,315 | 0.4% | Knorr Caldo 25 lb (line 0) |
 | 40.5 oz Retail | 0 | 0.0% | (listed but no 2025 production — DQ flag) |
 | 2 kg UFS | 12 | 0.0% | Knorr Caldo 25 lb (line 0) |
 
@@ -225,3 +219,4 @@ These gaps are raised as **P0 data requests D1, D2, D3** (cost, GM, Indy capacit
 3. Top-SKU tables at Indy and Lerma reflect 2025 full-year `Total 25`. They are not weighted by month of transfer, so a SKU that is "47% at Indy for the full year" may be "0% at Indy in January and 90% at Indy in December" — the monthly profile has to be used for Scenario 1 headroom math in Week 2.
 4. Multi-site counts exclude UI trace volume (small rounding). The strict "both sites > 0 in Retail + UFS" count is 6 Lerma ↔ Indy SKUs; the DQ memo's 10-SKU count includes UI trace and the zero-volume Batavia 40.5 oz row.
 5. The 100% / 0% / 38.5% multi-site shares for Indy / Batavia / Lerma are case-weighted, not SKU-weighted.
+6. The source workbook encodes **two 25 lb bulk Caldo UFS SKUs inconsistently**: `Knorr Caldo De Pollo 1p 25lb` uses `Size = 0` while `Knorr Caldo De Tomate 1p 25lb` uses `Size = "25 lb"`. Both are foodservice 1p drums on the same Knorr Caldo technology family. We've merged them into a single `25 lb bulk Caldo UFS` row (73,699 cases) in the format mix table above. The same `Size = 0` convention is also used for the three 160 g Zero Salt Canadian retail pouches (11,545 cases), which are split out as their own row because they are structurally unrelated to the bulk Caldo drums. See `analysis/format_line_complexity.md` §7 caveat 4 for full details.
